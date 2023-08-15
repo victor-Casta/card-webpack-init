@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 1.5s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md max-w-md animate-fadeIn">
+        <div class="flex items-center justify-center mb-4">
+            <div class="w-20 h-20 rounded-full overflow-hidden mr-4">
+                <img src="https://avatars.githubusercontent.com/u/115094771?v=4" alt="Tu Foto">
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800">¡Hola!</h2>
+                <p class="text-gray-600">¡Soy Victor!</p>
+            </div>
+        </div>
+        <div>
+            <p class="text-gray-700">Soy un apasionado del desarrollo web y me encanta trabajar en proyectos emocionantes. ¡Conéctate conmigo para colaborar en nuevas ideas!</p>
+        </div>
+        <main id="links">
+            
+        </main>
+        <div class="mt-6">
+            <ul class="flex space-x-4">
+                <li>
+                    <a href="https://twitter.com/VictorArroyav16" class="text-pink-500 hover:text-pink-700">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/victorac77/" class="text-pink-500 hover:text-pink-700">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/victor-Casta" class="text-pink-500 hover:text-pink-700">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
